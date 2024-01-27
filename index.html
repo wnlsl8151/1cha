@@ -155,18 +155,6 @@
         height: auto;
       }
 
-      .prev,
-      .next {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        font-size: 18px;
-        cursor: pointer;
-        padding: 10px;
-        background-color: #fff;
-        font-weight: 700;
-      }
-
       .prev {
         left: 10px;
       }
@@ -960,10 +948,11 @@
           <img src="./img/slide-row-img2.png" style="width: 100%" />
         </div>
 
-        <!-- 추가 슬라이드 추가 가능 -->
+        <div class="mySlides fade">
+          <img src="./img/slide-row-img3.png" style="width: 100%" />
+        </div>
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- 추가 슬라이드 추가 가능 -->
       </div>
     </section>
 
@@ -1161,7 +1150,7 @@
           slideIndex = 1;
         }
         slides[slideIndex - 1].style.display = 'block';
-        setTimeout(showSlides, 100000); // 2초마다 자동으로 넘어가게 설정 (원하는 시간으로 조절 가능)
+        setTimeout(showSlides, 7000); // 2초마다 자동으로 넘어가게 설정 (원하는 시간으로 조절 가능)
       }
 
       function plusSlides(n) {
