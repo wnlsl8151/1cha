@@ -18,6 +18,14 @@ html {
   /* align-items: center; */
 }
 
+.mmain {
+  display: none;
+}
+
+.sec01-img3 {
+  display: none;
+}
+
 .logo-img img {
   width: 35%;
   margin-left: 50%;
@@ -54,6 +62,16 @@ html {
 }
 
 .sec01-txt {
+  position: absolute;
+  color: #fff;
+  top: 25%;
+  right: 20%;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.sec01-txtM {
+  display: none;
   position: absolute;
   color: #fff;
   top: 25%;
