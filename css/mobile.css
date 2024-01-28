@@ -437,10 +437,18 @@
     font-size: 13px;
   }
 
+  .slides {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .slides img {
+    width: 100%;
+  }
+
   .slick-prev:before,
   .slick-next:before {
     font-weight: 900;
-    font-size: 50px;
   }
 
   .slick-prev:before {
