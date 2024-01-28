@@ -238,6 +238,8 @@
     margin-left: 85px;
     margin-bottom: 20px;
     font-size: 5px;
+    padding: 5px 10px;
+    border-radius: 2px;
   }
 
   .ok {
@@ -369,9 +371,10 @@
   .footer-txt ul {
     display: flex;
     justify-content: center;
-    margin: 0 20%;
-    margin-bottom: 20px;
+    margin: 0 11%;
+    /* margin-bottom: 5px; */
     font-size: 8px;
+    margin-top: 15px;
   }
 
   .footer-txt ul li {
@@ -379,13 +382,13 @@
   }
 
   .hi-footer {
-    width: 80%;
+    width: 30%;
     /* margin-right: px; */
     font-weight: 500;
   }
 
   .row-footer {
-    width: 80%;
+    width: 35%;
   }
 
   #footer {
@@ -463,6 +466,15 @@
   .slick-next:before {
     position: absolute;
     right: 100%;
+  }
+
+  .slideshow-container {
+    display: none;
+  }
+
+  .slideshow-container-M {
+    display: block;
+    margin-top: 150px;
   }
 }
 
@@ -689,9 +701,12 @@
   }
 
   .yes {
-    width: 70%;
+    width: 70.2%;
     margin-left: 95px;
+    margin-bottom: 20px;
     font-size: 5px;
+    padding: 5px 10px;
+    border-radius: 2px;
   }
 
   .ok {
@@ -810,23 +825,24 @@
   .footer-txt ul {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    font-size: 12px;
+    margin: 0 11%;
+    /* margin-bottom: 5px; */
+    font-size: 8px;
+    margin-top: 15px;
   }
 
   .footer-txt ul li {
     margin-bottom: 5px;
-    font-size: 8px;
-    margin: 0 10%;
   }
 
   .hi-footer {
-    width: 50%;
-    margin-left: 10%;
+    width: 30%;
+    /* margin-right: px; */
+    font-weight: 500;
   }
 
   .row-footer {
-    width: 50%;
+    width: 35%;
   }
 
   #footer {
@@ -867,5 +883,14 @@
 
   #footer .footer-txt {
     padding-top: 10px;
+  }
+
+  .slideshow-container {
+    display: none;
+  }
+
+  .slideshow-container-M {
+    display: block;
+    margin-top: 150px;
   }
 }
