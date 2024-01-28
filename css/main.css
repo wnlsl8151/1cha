@@ -77,12 +77,12 @@ html {
   top: 25%;
   right: 20%;
   font-size: 70px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .sec01-txt span {
   color: #ed8578;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 80px;
   animation: jisim 1.5s infinite;
 }
