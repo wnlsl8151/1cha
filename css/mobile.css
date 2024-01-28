@@ -237,7 +237,7 @@
     width: 70%;
     margin-left: 85px;
     margin-bottom: 20px;
-    font-size: 8px;
+    font-size: 5px;
   }
 
   .ok {
@@ -414,15 +414,43 @@
 
   #sec05 .line h5 {
     font-size: 30px;
+    font-weight: bolder;
+  }
+
+  #sec05 .slideshow-container {
+    margin-top: 150px;
   }
 
   #sec05 .slideshow-container h5 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
-  .next,
-  .prev {
-    font-size: 30px;
+  #sec05 .slideshow-container .big {
+    font-size: 13px;
+  }
+
+  #sec05 .slideshow-container .red {
+    font-weight: bold;
+  }
+
+  #sec05 .top-menu .big {
+    font-size: 13px;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-weight: 900;
+    font-size: 50px;
+  }
+
+  .slick-prev:before {
+    position: absolute;
+    left: 100%;
+  }
+
+  .slick-next:before {
+    position: absolute;
+    right: 100%;
   }
 }
 
@@ -651,7 +679,7 @@
   .yes {
     width: 70%;
     margin-left: 95px;
-    font-size: 8px;
+    font-size: 5px;
   }
 
   .ok {
@@ -817,7 +845,7 @@
   }
 
   #sec05 .slideshow-container h5 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .next,

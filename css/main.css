@@ -142,7 +142,7 @@ html {
 }
 
 #sec05 .slideshow-container {
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 #sec05 .slideshow-container .big {
@@ -162,7 +162,7 @@ html {
 }
 
 #slider {
-  width: 90%;
+  width: 100%;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -172,7 +172,7 @@ html {
   text-align: center;
 }
 .slide {
-  width: 90%;
+  width: 100%;
   flex: 0 0 auto;
 }
 

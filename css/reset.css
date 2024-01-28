@@ -78,9 +78,7 @@ h6 {
   font-weight: inherit;
   font-size: inherit;
 }
-strong {
-  font-weight: inherit;
-}
+
 .clearfix::after {
   content: '';
   display: block;
