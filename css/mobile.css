@@ -428,7 +428,8 @@
     font-size: 30px;
   }
 
-  #sec05 .slideshow-container .big {
+  #sec05 .slideshow-container .big,
+  #sec05 .slideshow-container-M .big {
     font-size: 13px;
   }
 
