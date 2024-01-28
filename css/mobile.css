@@ -79,6 +79,7 @@
 
   .mmain {
     display: block;
+    text-align: center;
   }
 
   .pcmain {
@@ -122,7 +123,7 @@
     width: 100%;
     position: absolute;
     top: 9%;
-    left: 16%;
+    left: 1.5%;
     color: #f09999;
     font-size: 30px;
     font-weight: 700;
@@ -133,13 +134,9 @@
     position: absolute;
     color: #fff;
     top: 75%;
-    left: 5%;
-    font-size: 20px;
+    left: 10%;
+    font-size: 16px;
     font-weight: 900;
-  }
-
-  .sec01-txtM span {
-    animation: jisim 1.5s infinite;
   }
 
   .sec01-img1 {
