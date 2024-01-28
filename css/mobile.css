@@ -237,6 +237,7 @@
     width: 70%;
     margin-left: 85px;
     margin-bottom: 20px;
+    font-size: 8px;
   }
 
   .ok {
@@ -650,6 +651,7 @@
   .yes {
     width: 70%;
     margin-left: 95px;
+    font-size: 8px;
   }
 
   .ok {
